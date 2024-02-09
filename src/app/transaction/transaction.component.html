@@ -1,0 +1,5 @@
+<div class ="title">MES TRANSACTIONS</div>
+
+<ul *ngFor="let transaction of transactions">
+    <li>{{transaction.name}} || {{transaction.date}} || {{transaction.amountBuy}} || {{transaction.amountCar}} || {{transaction.amountTaxes}} || {{transaction.amountDeduction}}</li>
+</ul>
